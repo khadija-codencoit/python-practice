@@ -100,7 +100,8 @@ bankaccount = BankAccount(543,999)
 bankaccount.show()
 
 
-## Problem 7
+
+
 person = Record("Khadija", "khatun", 16)
 person.calculate_year_of_birth()
 # dob =fahmid.calculate_year_of_birth()
@@ -110,7 +111,7 @@ person.calculate_year_of_birth()
 khadija = Record("khadija", "Khatun", 26)
 dob = khadija.calculate_year_of_birth()
 
-
+## Problem 7
 
 class Student(Record):
     def __init__(self, f_name, l_name, age, student_id):
