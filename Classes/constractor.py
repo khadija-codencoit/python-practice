@@ -80,6 +80,35 @@ class Record:
         year_of_brith = 2025 - self.age
         print(f"Year of Birth: {year_of_brith}")
 
+
+
+person = Record("Khadija", "khatun", 16)
+person.calculate_year_of_birth()
+# dob =fahmid.calculate_year_of_birth()
+# print(f"Year of Birth: {fahmid.calculate_year_of_birth()}")
+
+
+khadija = Record("khadija", "Khatun", 26)
+dob = khadija.calculate_year_of_birth()
+
+
+
+class Student(Record):
+    def __init__(self, f_name, l_name, age, student_id):
+        super().__init__(f_name, l_name, age)
+        self.student_id = student_id
+        print(f"Student ID: {self.student_id}")
+
+    def calculate_year_of_birth(self):
+        print("Calculate birth year.")
+
+
+
+halima = Record("Halima", "Khatun", 25)
+#halima = Student("Halima", "Khatun", 25, "S12345")
+halima.calculate_year_of_birth()
+
+
 ## Problem 6
 # Create a class BankAccount with attributes account_number and balance.
 # In the constructor, make sure the balance cannot be negative.
@@ -98,38 +127,6 @@ class BankAccount:
 
 bankaccount = BankAccount(543,999)      
 bankaccount.show()
-
-
-
-
-person = Record("Khadija", "khatun", 16)
-person.calculate_year_of_birth()
-# dob =fahmid.calculate_year_of_birth()
-# print(f"Year of Birth: {fahmid.calculate_year_of_birth()}")
-
-
-khadija = Record("khadija", "Khatun", 26)
-dob = khadija.calculate_year_of_birth()
-
-## Problem 7
-
-class Student(Record):
-    def __init__(self, f_name, l_name, age, student_id):
-        super().__init__(f_name, l_name, age)
-        self.student_id = student_id
-        print(f"Student ID: {self.student_id}")
-
-    def calculate_year_of_birth(self):
-        print("Calculate birth year.")
-
-
-
-halima = Record("Halima", "Khatun", 25)
-#halima = Student("Halima", "Khatun", 25, "S12345")
-halima.calculate_year_of_birth()
-
-
-
 
 
 
