@@ -31,8 +31,9 @@ class Book:
 
 book = Book("Alchemist","khadija",999)       
 other = Book("Alchemist","khadija",999)   
+print(book)
 
-print(f"Title = {book.title} Author = {book.author}")
-print(f"Title = {other.title} Author = {other.author}")
+# print(f"Title = {book.title} Author = {book.author}")
+# print(f"Title = {other.title} Author = {other.author}")
 
-print(book == other)
+# print(book == other)
