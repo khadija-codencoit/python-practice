@@ -102,4 +102,8 @@ with open("json_test.csv","w",newline="") as file:
     write = csv.DictWriter(file,fieldnames=fields)
     write.writeheader()
     write.writerows(json_data)
-    
+
+with open("json_practice.csv","w",newline="") as file:
+    write =csv.DictWriter(file,fieldnames=fields)
+    write.writeheader()
+    write.writerow(json_data)
