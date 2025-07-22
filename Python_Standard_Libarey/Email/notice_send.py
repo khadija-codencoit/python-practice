@@ -8,7 +8,7 @@ import csv
 
 ##Practice
 
-template = Template(Path("Python_Standard_Libarey/template.html").read_text())
+template = Template(Path("Python_Standard_Libarey/Email/Teamplate/template.html").read_text())
 
 with open("company_emails.csv","w",newline="") as output:
     write = csv.writer(output)
