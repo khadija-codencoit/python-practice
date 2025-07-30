@@ -1,0 +1,38 @@
+7.Payment Processing
+Requirement ID: FR007
+Description: The system shall support secure payment processing by using 
+SSLCommerze payment Gateway system.
+Acceptance Criteria:
+Users shall be able to enter payment details securely and complete 
+transactions without unauthorized access to sensitive information.
+The system shall validate payment information and process payments in real-
+time, providing confirmation of successful transactions.
+If Paying Onlinethe user provides payment details (e.g., card number or 
+mobile banking credentials) securely through the SSLCommerz payment 
+gateway.
+For online payments, the system processes the transaction and displays a 
+confirmation message upon success. For cash on delivery, the order 
+confirmation is displayed.
+Allow guest users to complete payments without logging in. Automatically generate 
+a user profile upon successful payment, using the provided details (such as name, 
+email, and phone number). The credentials will be shared with the user via email .
+8. Order Tracking
+Requirement ID: FR008
+Description: Users can track the status of their orders.
+Acceptance Criteria:
+Users can view the status of their orders.
+Users receive notifications about order status updates.
+Users can view estimated delivery times.
+9.User Reviews and Ratings
+Requirement ID: FR009
+Description: The system shall allow registered customers to give their review & ratings 
+about specific product(s) used by them.
+Acceptance Criteria:
+The system shall display average ratings and customer reviews on the product page.
+Users can submit reviews and ratings for purchased products.
+Admin can moderate reviews.
+User’s reviews will be reviewed & published by Admin.
+10.User Registration and Authentication
+Requirement ID: FR0010
+Description: Users can register by providing their mobile number, email(optional) address, 
+and personal information.

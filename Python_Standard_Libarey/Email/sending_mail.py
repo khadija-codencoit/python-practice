@@ -47,6 +47,7 @@ with open("company_emails.csv","r",newline = "") as output:
         message["subject"] = "Team Meetup Notification."
         body = template.substitute({"name":row.get("Employe Names")})
         message.attach(MIMEText(body,"html"))
+        
 
         with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
 
